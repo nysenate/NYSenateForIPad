@@ -2,18 +2,33 @@
 <ti:app xmlns:ti="http://ti.appcelerator.org">
 <id>gov.nysenate.mobile.apple.ipad</id>
 <name>NYSenate</name>
-<version>1.0.9</version>
+<version>1.11.5</version>
 <publisher>New York State Senate</publisher>
 <url>http://nysenate.gov/mobile</url>
 <description>New York State Senate for iPad</description>
-<copyright>GPL 3.0 and Creative Commons - 2010 by nysenate cio</copyright>
+<copyright>GPL 3.0 and Creative Commons - 2010, 2011 by nysenate cio</copyright>
 <icon>appicon.png</icon>
-    <persistent-wifi>true</persistent-wifi>
+    <persistent-wifi>false</persistent-wifi>
     <prerendered-icon>true</prerendered-icon>
     <statusbar-style>default</statusbar-style>
     <statusbar-hidden>false</statusbar-hidden>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
-    <analytics>true</analytics>
-<guid>d0ea60e0-40bd-4337-bff1-3d758b869f85</guid>
+    <analytics>false</analytics>
+<guid>29f1938d-3d13-4317-998b-40438ede2931</guid>
+	<iphone>
+		<orientations device="iphone">
+			<orientation>Ti.UI.PORTRAIT</orientation>
+		</orientations>
+		<orientations device="ipad">
+			<orientation>Ti.UI.PORTRAIT</orientation>
+			<orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+			<orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+			<orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+		</orientations>
+	</iphone>
+	<android xmlns:android="http://schemas.android.com/apk/res/android">
+	</android>
+	<modules>
+	</modules>
 </ti:app>

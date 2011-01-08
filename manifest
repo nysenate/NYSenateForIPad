@@ -1,8 +1,8 @@
-#appname: NYSenate
-#publisher: nysenate
+#appname: NYSenateiPad2011
+#publisher: nathan
 #url: http://nysenate.gov/mobile
 #image: appicon.png
-#appid: gov.nysenate.mobile.ipad
-#desc: nysenate for ipad
+#appid: gov.nysenate.mobile.apple.ipad
+#desc: undefined
 #type: ipad
-#guid: d0ea60e0-40bd-4337-bff1-3d758b869f85
+#guid: 29f1938d-3d13-4317-998b-40438ede2931
