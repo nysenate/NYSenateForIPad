@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
 <id>gov.nysenate.mobile.apple.ipad</id>
-<name>NYSenate</name>
+<name>NYSenate for iPad</name>
 <version>1.11.5</version>
 <publisher>New York State Senate</publisher>
 <url>http://nysenate.gov/mobile</url>
 <description>New York State Senate for iPad</description>
 <copyright>GPL 3.0 and Creative Commons - 2010, 2011 by nysenate cio</copyright>
 <icon>appicon.png</icon>
-    <persistent-wifi>false</persistent-wifi>
+    <persistent-wifi>true</persistent-wifi>
     <prerendered-icon>true</prerendered-icon>
     <statusbar-style>default</statusbar-style>
     <statusbar-hidden>false</statusbar-hidden>

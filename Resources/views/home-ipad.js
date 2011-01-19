@@ -200,6 +200,7 @@ xhr.onerror = function ()
 	
 };
 
+/*
 function loadFeatures (featuresJSON)
 {		
 		
@@ -297,7 +298,7 @@ xhr.onload = function() {
 	
 xhr.open("GET",featuresUrl);
 xhr.send();
-
+*/
 
 
 var currentViewTop =  Titanium.UI.createView({
@@ -477,7 +478,7 @@ xhrvideo.onload = function()
 			vHorizSpacing = 5;
 		
 		var rLeft = 15;
-		var vContainerHeight = 200;
+		var vContainerHeight = 400;
 		var vLabelHeight = 70;
 		
 		var currentView =  Titanium.UI.createView({

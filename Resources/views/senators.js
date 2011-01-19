@@ -82,12 +82,13 @@ var lastClickedRow;
 		}
 		else
 		{
+			/*
 			if (lastClickedRow)
 				lastClickedRow.backgroundColor = "transparent";
-				
 			
 			e.row.backgroundColor = "#aaaaaa";
 			lastClickedRow = e.row;
+			*/
 			
 			var senIndex = e.index - 2;
 			

@@ -84,8 +84,8 @@ var tdata = null;
 
 tdata = [
 	{title:'Contact Information',hasChild:true,link:senatorUrl + "/contact"},
- 	{title:'District Map',hasChild:true,title:'District Map',elink:'http://www.nysenate.gov/district/' + senatorDistrict},
-//	{title:'View District Map',hasChild:true,title:'District Map',kml:'http://geo.nysenate.gov/maps/kml/sd' + senatorDistrict + '.kml?key=YgiZWjKgealrvSlyDMQRMYEaNLv2fFiz'},	
+// 	{title:'District Map',hasChild:true,title:'District Map',elink:'http://www.nysenate.gov/district/' + senatorDistrict},
+	{title:'District Map',hasChild:true,title:'District Map',kml:'http://geo.nysenate.gov/maps/kml/sd' + senatorDistrict + '.kml?key=YgiZWjKgealrvSlyDMQRMYEaNLv2fFiz'},	
 	{title:"Latest News & Updates",hasChild:true, rss:senatorUrl+ "/content/feed"},
 	{title:'Sponsored Bills',hasChild:true,olterm:"sponsor:"+legSearchKey + " AND otype:bill AND (oid:S* or oid:A*)"},
 	{title:'Chaired Meetings',hasChild:true,olterm:"chair:"+legSearchKey + " AND otype:meeting"},
